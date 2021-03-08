@@ -1,0 +1,11 @@
+1 When do you want to start learning?
+
+2 Why do you want to learn?
+
+3 What do you want to get out of learning?
+
+4 How far do you want to go?
+
+5 Are you on Windows? Mac? Linux?
+
+    6 What version?

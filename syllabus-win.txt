@@ -1,0 +1,126 @@
+"Meditate on these (following) things:"
+
+* M.V.C. = Model / View / Controller
+
+    - An application is a living thing with (at least) three layers:
+
+Bones = Database
+Flesh = Templates
+Meat = Code
+
+Model = Database
+View = Templates
+Controller = Code
+
+Back-end (model),
+Front-end (view),
+Middle! (controller)
+
+"I would keep a notes file with those things in it. And anything else you want to remember."
+"So we have 3 interpretations of the 3 layers of an application."
+"So lets think about some applications in the wild. Say Facebook."
+"The database is the stuff in everyone's profiles."
+"The templates are the things that make the layout of an actual page - colors, borders, etc."
+"The code is the stuff you can't see that links the database and the templates to render someone's profile."
+
+* Perl prep
+    - Download and install Perl
+        https://strawberryperl.com/
+
+"This will be the "code" part of the equation. The "controller" will be made in Perl."
+
+cpanm Data::Dumper::Compact
+cpanm Mojolicious
+
+"What you just did was to go out to a place called CPAN and download and install 2 code libraries."
+Where CPAN = https://www.cpan.org/
+
+* Database prep
+    - Download and install sqlite
+        https://www.sqlite.org/download.html
+        64-bit DLL (x64) and the bundle of command-line tools .zip files
+
+OKAY NOW BREATHE... Your development environment is alive! :D
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Sandbox prep
+    - Create a folder called Sandbox, under your Documents in the File Explorer.
+    - If not already, open the "Start menu > Strawberry Perl > Perl (command line)" application.
+    - Type "cd " into the command line window then drag-and-drop the Sandbox folder to the command line window.
+        - This should place the full, possibly ugly path to your Sandbox on the command line.
+    - Hit enter!
+
+"Remember how to do this, as it is sometimes a crucial maneuver."
+
+* Editor prep (optional)
+    - Download VSCode
+        https://code.visualstudio.com/download
+    - Open VSCode
+    - Open the Sandbox folder
+
+* Mojolicious::Lite
+    - Vocabulary: Endpoint, Verb, Route, Action, Controller, Parameter
+
+    - First open tut-000.pl, study and run it.
+    - Open tut-001.pl, "
+    - Run with morbo and open the URL http://127.0.0.1:3000
+    - Open, study and run the next program.
+    - Refresh the web page.
+    - Rinse, repeat with the remaining tut programs:
+
+    - Bite-sized programs:
+        000 = Print variables
+        001 = Render text
+        002 = Render a variable in templates
+        003 = Render a parameter in templates
+        004 = Render 2 endpoints in more complex templates
+        005 = Create a database
+        006 = Render a name from the database in templates
+        007 = Render all names in the database in more complex templates
+        008 = Use inline Javascript alert() and CSS font
+        009 = Use Javascript .js and CSS .css public/ files
+        010 = HTML form with interpolated JS alert()
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Programming with Perl
+    - Preamble
+        A. use = "Use the functions that are in this library."
+             Or: "Use the rules defined in this library."
+
+    - Variables
+        A. Come in various flavors. The most used are:
+            $  Scalar 0-9, A-Z, etc. single values
+            @  Array  []  list of values
+            %  Hash   {}  key => value pair list
+        B. Declare with the "my" command.
+        C. De-referencing
+
+    - Operators: = + - * /
+        Also: => and ->
+
+    - Quotes: ' and "
+        'Literal'
+        "Interpolating"
+
+    - Perl commands:
+        split
+        join
+        print
+
+    - Functions and methods
+        A. sub = "Look out! I'm about to do stuff!"
+        B. $object->method(%arguments);
+
+    - Regular expressions match and replace text.
+        m//
+        s///
+
+* Databases
+    - Spreadsheet on steroids
+    - Vocabulary: Database, Table, Row, Column, Field, SQL
+
+* Templates
+    - The visible surface of your app.
+    - Vocabulary: HTML, CSS, JavaScript
