@@ -1,28 +1,3 @@
-"Meditate on these (following) things:"
-
-* M.V.C. = Model / View / Controller
-
-    - An application is a living thing with (at least) three layers:
-
-Bones = Database
-Flesh = Templates
-Meat = Code
-
-Model = Database
-View = Templates
-Controller = Code
-
-Back-end (model),
-Front-end (view),
-Middle! (controller)
-
-"I would keep a notes file with those things in it. And anything else you want to remember."
-"So we have 3 interpretations of the 3 layers of an application."
-"So lets think about some applications in the wild. Say Facebook."
-"The database is the stuff in everyone's profiles."
-"The templates are the things that make the layout of an actual page - colors, borders, etc."
-"The code is the stuff you can't see that links the database and the templates to render someone's profile."
-
 * Perl prep
     - Download and install Perl
         https://strawberryperl.com/
