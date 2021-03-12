@@ -1,11 +1,13 @@
 1 When do you want to start learning?
 
-2 Why do you want to learn?
+2 How much time are you willing to dedicate?
 
-3 What do you want to get out of learning?
+3 Why do you want to learn?
 
-4 How far do you want to go?
+4 What do you want to get out of learning?
 
-5 Are you on Windows? Mac? Linux?
+5 How far do you want to go?
 
-    6 What version?
+6 Are you on Windows? Mac? Linux?
+
+7 What version?
