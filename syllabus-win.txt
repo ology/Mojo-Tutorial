@@ -1,3 +1,7 @@
+First: Read the syllabus.txt file, then come back here.
+
+~
+
 * Perl prep
     - Download and install Perl
         https://strawberryperl.com/
