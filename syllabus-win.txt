@@ -11,7 +11,7 @@ cpanm Mojolicious
 Where CPAN = https://www.cpan.org/
 
 * Database prep
-    - Download and install sqlite
+    - Download and install sqlite under the "Precompiled Binaries for Windows" section
         https://www.sqlite.org/download.html
         64-bit DLL (x64) and the bundle of command-line tools .zip files
 
